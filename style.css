@@ -12,11 +12,14 @@ body{
 }
 
 
-
+#email{
+    text-decoration: none;
+    color: #00abae;
+}
 
 #about{
     margin: 60px auto;
-    max-width: 400px;
+    max-width: 70%;
     text-align: center;
 
 }
@@ -29,8 +32,13 @@ body{
 }
 
 #about .name{
-    font-size: 19px;
+    font-size: 29px;
 
+} 
+
+#about h2{
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 #about .vocation{
@@ -57,4 +65,22 @@ body{
 
 #about .icons a{
     color: black;
+}
+
+.card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    background-color: #00abae;
+    border: none;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.card-text{
+    color: #A8A8AB;
 }
